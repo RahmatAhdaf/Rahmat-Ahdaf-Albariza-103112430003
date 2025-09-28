@@ -58,7 +58,7 @@ int main(){
 }
 ```
 Output :
->![](OUTPUT/G1.png)
+>![](OUTPUT/G1.PNG)
 
 Penjelasan : 
 Program ini fungsinya buat ngitung diskon belanja pake percabangan **if-else**. Pertama, program minta pengguna masukin total belanja. Kalau total belanjanya lebih dari atau sama dengan Rp30.000, program otomatis ngitung diskon 10% terus nampilin hasilnya. Tapi kalau belanjanya kurang dari itu, program cuma bilang kalau belanja terlalu sedikit jadi nggak dapet diskon.
@@ -92,7 +92,7 @@ int main(){
 }
 ```
 Output : 
->![](OUTPUT/G2.png)
+>![](OUTPUT/G2.PNG)
 
 Penjelasan : 
 Program ini fungsinya buat ngulangin kalimat pake perulangan **for**. Pertama, program minta pengguna masukin sebuah angka. Angka itu dipake buat nentuin berapa kali kalimat _“Saya sangat pintar seperti albert einstein”_ ditampilin ke layar. Jadi intinya, jumlah pengulangan sesuai sama angka yang dimasukin pengguna.
@@ -126,7 +126,7 @@ int main(){
 }
 ```
 Output : 
->![](OUTPUT/G3.png)
+>![](OUTPUT/G3.PNG)
 
 Penjelasan : 
 Program ini fungsinya buat nunjukin cara kerja operator **pre-increment (++r)**. Awalnya variabel `r` nilainya 20. Pas ada perintah `s = 20 + ++r`, nilai `r` ditambah dulu jadi 21 baru terus dihitung. Hasilnya, `s` jadi 41 dan `r` juga jadi 21. Terakhir, program nampilin kedua nilai itu ke layar.
@@ -160,7 +160,7 @@ int main(){
 }
 ```
 Output : 
->![](OUTPUT/G4.png)
+>![](OUTPUT/G4.PNG)
 
 Penjelasan : 
 Program ini fungsinya buat ngubah suhu dari Celcius ke Fahrenheit. Pertama, program bakal minta kita masukin berapa suhu dalam Celcius. Angka yang dimasukin itu terus dihitung pake rumus `(9.0/5.0) * celcius + 32` buat dapetin hasil dalam Fahrenheit. Setelah itu, hasil konversinya langsung ditampilin ke layar lengkap sama pesan tambahan.
@@ -207,7 +207,7 @@ int main() {
 }
 ```
 Output : 
->![](OUTPUT/U1.png)
+>![](OUTPUT/U1.PNG)
 
 Penjelasan : 
 Program ini fungsinya buat ngitung operasi hitung sederhana dari dua angka. Pertama, program bakal minta kita masukin dua angka, terus disimpen di variabel `angka1` sama `angka2`. Setelah itu program langsung ngitung hasil tambah, kurang, kali, sama bagi dari angka yang kita masukin tadi. Terakhir, semua hasil perhitungannya ditampilin ke layar.
@@ -267,7 +267,7 @@ int main() {
 
 ```
 Output : 
->![](OUTPUT/U2.png)
+>![](OUTPUT/U2.PNG)
 
 Penjelasan : 
 Program ini fungsinya buat ngubah angka jadi tulisan. Jadi kalau kita masukin angka dari 0 sampai 100, nanti keluar hasilnya dalam bentuk kata. Di dalam program ada tiga daftar kata: yang pertama buat angka satuan (0–9), yang kedua buat angka belasan (10–19), dan yang ketiga buat angka puluhan (20, 30, 40, dst). Cara kerjanya gini: kalau angka kurang dari 10, program langsung ambil dari daftar satuan. Kalau angkanya antara 10 sampai 19, program ambil dari daftar belasan. Kalau angkanya 20 sampai 99, program ambil dulu puluhannya, terus kalau ada sisa satuannya ditambahin lagi. Kalau angkanya 100 langsung ditulis “seratus”. Tapi kalau masukin angka lebih dari 100, program bakal bilang angkanya di luar jangkauan. Jadi intinya program ini cuma ngeubah angka jadi tulisan biar lebih gampang dibaca.
@@ -345,7 +345,7 @@ int main() {
 }
 ```
 Output : 
->![](OUTPUT/U3.png)
+>![](OUTPUT/U3.PNG)
 
 Penjelasan : 
 Program ini gunanya buat bikin pola angka dan tanda bintang yang bentuknya mirip segitiga terbalik. Pertama, kita disuruh masukin sebuah angka `n`. Dari angka itu, program bikin baris dari `n` sampai 0. Tiap barisnya diawali sama spasi biar posisinya miring ke kanan, terus program cetak angka turun, lalu tanda `*`, terus angka naik lagi. Karena setiap baris jumlah angkanya makin sedikit dan bergeser ke kanan, hasil akhirnya keliatan kayak segitiga terbalik.
