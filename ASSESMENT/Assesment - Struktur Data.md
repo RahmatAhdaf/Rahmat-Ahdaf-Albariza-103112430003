@@ -223,7 +223,7 @@ Kalau user milih menu insert, nama baru dimasukin ke belakang list lewat InsertL
 3. Output Program
 
 Berikut adalah hasil eksekusi program (output) ketika dijalankan.
->![](OUTPUT/1.png)
+>![](OUTPUT/1.PNG)
 
 4. Penjelasan Lanjutan (Analisis Output)
 
