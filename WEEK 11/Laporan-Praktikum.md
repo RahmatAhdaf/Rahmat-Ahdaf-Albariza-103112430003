@@ -438,7 +438,7 @@ Output :
 >![](OUTPUT/UNGUIDED.PNG)
 
 Penjelasan : 
-Program **main.cpp** ini fungsinya buat ngetes semua operasi circular linked list yang sudah dibuat di file header dan file .cpp sebelumnya. Pertama ada fungsi `createData`, yang tugasnya cuma bikin satu data mahasiswa lengkap (nama, nim, jenis kelamin, IPK), lalu langsung ngasih node baru lewat pemanggilan `alokasi`. Jadi biar gampang, setiap mau nambah mahasiswa, cukup panggil `createData(...)` tanpa ribet ngisi struktur info secara manual.
+Program **unguided.cpp** ini fungsinya buat ngetes semua operasi circular linked list yang sudah dibuat di file header dan file .cpp sebelumnya. Pertama ada fungsi `createData`, yang tugasnya cuma bikin satu data mahasiswa lengkap (nama, nim, jenis kelamin, IPK), lalu langsung ngasih node baru lewat pemanggilan `alokasi`. Jadi biar gampang, setiap mau nambah mahasiswa, cukup panggil `createData(...)` tanpa ribet ngisi struktur info secara manual.
 
 Di dalam fungsi `main`, dibuat dulu sebuah list kosong dengan `createList(L)`. Setelah itu program mulai ngejalanin serangkaian operasi insert untuk nambah beberapa mahasiswa ke dalam list. Ada yang dimasukin pakai `insertFirst` (buat naruh di depan), ada juga yang pakai `insertLast` (buat naruh di belakang). Setelah data dasar dimasukin, program mulai nyisipin elemen-elemen tertentu pada posisi tertentu menggunakan `insertAfter`. Misalnya Cindi dimasukin setelah Bobi, Hilmi dimasukin setelah Gita, dan Eli dimasukin setelah Danu. Proses nyari posisi sisipnya dilakukan lewat `findElm` yang ngecek nim mahasiswa.
 
